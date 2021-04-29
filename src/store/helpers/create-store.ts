@@ -20,9 +20,9 @@ const createStore = () => {
       question: 'How long are you planning to stay in Berlin?',
       id: 3,
       options: [
-        { value: 'Less then a week', nextId: 6 },
-        { value: 'From 7 days up to 30 days', nextId: 7 },
-        { value: 'More then 30 days', nextId: 8 },
+        { value: '< 7 days', nextId: 6 },
+        { value: 'From 7 to 30 days', nextId: 7 },
+        { value: '> 30 days', nextId: 8 },
       ],
       done: false,
     })

@@ -7,8 +7,10 @@ import styles from './QuestionSection.module.css';
 const QuestionSection = () => {
   return (
     <section className={styles.questionSection}>
-      <h3 className={styles.title}>What BVG Ticket Do You Need?</h3>
-      <p>Answer few simple questions and you'll get an advice</p>
+      <header>
+        <h3 className={styles.title}>What BVG Ticket Do You Need?</h3>
+        <p>Answer few simple questions and you'll get an advice</p>
+      </header>
       <QuestionCard />
 
       <div className={styles.line}></div>
