@@ -1,0 +1,10 @@
+.answerList {
+  width: 80%;
+  margin: 4rem auto;
+  list-style-type: none;
+}
+
+.process {
+  color: var(--light);
+  font-size: 32px;
+}

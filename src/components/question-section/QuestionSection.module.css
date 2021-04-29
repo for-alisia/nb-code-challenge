@@ -1,0 +1,38 @@
+.questionSection {
+  flex-grow: 1;
+  background-color: var(--light);
+
+  text-align: center;
+  position: relative;
+  padding-top: 2rem;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--primary);
+  margin: 1rem 0;
+}
+
+.line,
+.line::before,
+.line::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  width: 10px;
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+.line::before {
+  content: '';
+  right: 30px;
+  width: 7px;
+}
+
+.line::after {
+  content: '';
+  right: 57px;
+  width: 4px;
+}

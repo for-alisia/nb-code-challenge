@@ -1,0 +1,28 @@
+.answerItem {
+  background-color: var(--light);
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  position: relative;
+}
+
+.idx {
+  position: absolute;
+  top: -16px;
+  left: -16px;
+  display: block;
+
+  background-color: var(--secondary);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  color: var(--light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 32px;
+}
+
+.answerItem:not(:last-of-type) {
+  margin-bottom: 1.5rem;
+}
